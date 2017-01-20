@@ -7,21 +7,21 @@ public class Exerc06 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Digite um número: ");
+		System.out.println("Digite um nÃºmero: ");
 		double n1 = scan.nextDouble();
 		
-		System.out.println("Digite um número: ");
+		System.out.println("Digite um nÃºmero: ");
 		double n2 = scan.nextDouble();
 		
-		System.out.println("Digite um número: ");
+		System.out.println("Digite um nÃºmero: ");
 		double n3 = scan.nextDouble();
 		
 		if (n1>=n2&n1>=n3) {
-			System.out.println("O número " +n1 +" é o maior número.");
+			System.out.println("O nÃºmero " +n1 +" Ã© o maior nÃºmero.");
 		}else if (n2>=n1&n1>=n3) {
-			System.out.println("O número " +n2 +" é o maior número.");
+			System.out.println("O nÃºmero " +n2 +" Ã© o maior nÃºmero.");
 		}else
-			System.out.println("O número " +n3 +" é o maior número.");
+			System.out.println("O nÃºmero " +n3 +" Ã© o maior nÃºmero.");
 
 	}
 
