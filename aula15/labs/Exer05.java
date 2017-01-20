@@ -22,7 +22,7 @@ public class Exerc05 {
 		
 			
 		if(media==10) {
-			System.out.println("Aprovado com distinção");
+			System.out.println("Aprovado com distinÃ§Ã£o");
 		}else if (media<7) {
 			System.out.println("Reprovado");
 		}else  {
