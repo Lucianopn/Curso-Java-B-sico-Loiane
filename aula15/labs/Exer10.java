@@ -7,7 +7,7 @@ public class Exerc10 {
 	public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         
-        System.out.println("Digite o turno que você estuda:");
+        System.out.println("Digite o turno que vocÃª estuda:");
         String turno = scan.next();
         
         switch(turno){
@@ -17,7 +17,7 @@ public class Exerc10 {
             case "V": System.out.println("Boa tarde!"); break; 
             case "n":
             case "N": System.out.println("Boa noite!"); break;  
-            default: System.out.println("Valor inválido"); 		
+            default: System.out.println("Valor invÃ¡lido"); 		
 
 		}
 
