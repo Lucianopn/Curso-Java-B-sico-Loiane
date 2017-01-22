@@ -3,7 +3,7 @@ package luciano.cursojava.aula17;
 public class LoopFor {
 
 	public static void main(String[] args) {
-		// Executa o bloco enquanto a condição é verdadeira.
+		// Executa o bloco enquanto a condiÃ§Ã£o Ã© verdadeira.
 		
 		for(int i=0 ; i<5 ; i++) {
 			System.out.println("Valor de i: " + i);
@@ -39,9 +39,14 @@ public class LoopFor {
 		System.out.println("------------------------------------------");
 		
 		int soma = 0;
-		
-		
-		
+		for (int i=1; i < 5; soma += i++);
+		System.out.println("O valor da soma Ã© " + soma);
+				
+		System.out.println("------------------------------------------");
+				
+		for (int i=0; i < 5; i++) {
+		System.out.println("i tem valor: " + i);
+		System.out.println("i tem valor: ");		
 		
 	}
 
