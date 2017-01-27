@@ -8,13 +8,13 @@ public class Exer24 {
 	public static void main(String[] args) {
 		Scanner value = new Scanner(System.in);
 		
-		System.out.println("Digite o preÁo do p„o:");
+		System.out.println("Digite o pre√ßo do p√£o:");
 		double valor= value.nextDouble();
 		double constante = valor;
 
 		for (int i = 1; i <= 50; i++) {
 					
-			DecimalFormat df =new DecimalFormat("#,###.##");
+			DecimalFormat df =new DecimalFormat("#,###.00");
 			System.out.println(i + " - R$" + df.format(valor));
 			
 			valor = valor + constante;
