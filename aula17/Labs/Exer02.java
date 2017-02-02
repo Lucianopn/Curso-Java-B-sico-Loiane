@@ -8,16 +8,19 @@ public class Exer02 {
 		Scanner value = new Scanner(System.in);
 		
 		boolean loginValido =false;
+		//declarar variaveis fora do loop para o sistema n√£o derar minhares de variaveis em cada loop.
+		String usuario;
+		String senha; 
 		
 		do {
-			System.out.println("Digite sua usu·rio: ");
-			String usuario =  value.nextLine();
+			System.out.println("Digite sua usu√°rio: ");
+			usuario =  value.nextLine();
 			
 			System.out.println("Digite sua senha: ");
-			String senha =  value.nextLine();
+			senha =  value.nextLine();
 			
 			if (senha.equalsIgnoreCase(usuario)) {
-				System.out.println("A senha n„o pode ser igual ao usu·rio");
+				System.out.println("A senha n√£o pode ser igual ao usu√°rio");
 				
 			}else {
 				loginValido =true;
