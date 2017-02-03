@@ -30,9 +30,9 @@ public class Exer22 {
 		double media0 = (count0*100)/vetor.length;
 		double media1 = (count1*100)/vetor.length;
 		
-		System.out.println("Média numeros 0, igual a: " + media0 );
+		System.out.println("MÃ©dia numeros 0, igual a % de " + media0 );
 		
-		System.out.println("Média numeros 1, igual a: " + media1);
+		System.out.println("MÃ©dia numeros 1, igual a % de " + media1);
 
 	}
 
